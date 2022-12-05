@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .box {
+            width:200px;
+            height:200px;
+            border-radius: 50%;
+            background-color: #4f5050;
+            animation: demo 2s;
+            animation-iteration-count: infinite;
+            position: relative;
+            background-image: url("assets/img/post-sample-image.jpg");
+        }
+        @keyframes demo {
+            0%{background-color:rgba(164,214,245,0.78)}
+            50%{background-color:#0dcaf0; left:250px}
+            100%{background-color:#006a81}
+        }
+    </style>
+</head>
+<body>
+<div class="box"></div>
+
+</body>
+</html>
